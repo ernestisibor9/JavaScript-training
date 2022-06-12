@@ -1,0 +1,72 @@
+.good{
+    display: flex;
+    justify-content: space-around;
+ 
+}
+h1{
+    color: #fff;
+    font-size: 3.4rem !important;
+    margin-top: 20px !important;
+    margin-bottom: 30px !important;
+    text-align: center;
+}
+.myMessage{
+    color: #fff;
+}
+.remove_novel{
+    color: yellow;
+    font-weight: bold;
+    margin-left: 70px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+#error{
+    color: red;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    font-weight: bold;  
+}
+
+/* .containerBack{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+.btnContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+}
+#btn{
+    width: 300px !important;
+    height: 70px !important;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#btn:hover{
+    background-color: red;
+}
+.button_container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 250px;
+}
+.gd{
+    text-align: center;
+    margin:auto;
+    background-color:aqua;
+    height: 950px;
+}
+#value{
+    font-size: 9rem;
+    margin-top: 30px;
+}
+#fetchData{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+#fetchData h5{
+    font-size: 0.5rem !important;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="goodContainer">
+        <a href="#" class="good">Home</a>
+        <a href="#" class="good">About</a>
+        <a href="#" class="good">Services</a>
+        <a href="#" class="good">Contact</a>
+        <a href="#" class="good">Blog</a>
+    </div>
+
+    <script>
+        // Declaration 
+        const goodContainer = document.getElementById('goodContainer')
+        const goodMan = document.querySelectorAll('.good')
+        
+        goodMan[0].remove()
+        goodMan[1].remove()
+    </script>
+</body>
+</html>

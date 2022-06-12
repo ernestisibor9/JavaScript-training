@@ -1,0 +1,1 @@
+document.write('Nigeria is my country');

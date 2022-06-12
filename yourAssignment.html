@@ -1,0 +1,145 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hi</h1>
+
+    <script>
+        // Print odd numbers
+const numbers = [1,2,3,4,5,6,7,8]
+
+// Filter through the numbers
+const myFilter = numbers.filter((item)=>{
+    return item % 2 === 1;
+})
+
+console.log(myFilter);
+
+class Person{
+    constructor(name, age){
+        this.name = name
+        this.age = age
+    }
+    what(){
+        console.log(this.name + ' is a good boy');
+    }
+    static arm(){
+        return 45
+    }
+}
+
+let myPerson = new Person('Ernest', 12)
+console.log(myPerson);
+console.log(myPerson.age);
+console.log(myPerson.what());
+console.log(Person.arm());
+
+// Static methods are called without instantiation of the class
+
+class Cars extends Person{
+    what(){
+        super.what()
+        console.log(this.name + 'is a girl');
+    }
+}
+
+let myCar = new Cars('Alex')
+console.log(myCar.what());
+console.log(myPerson.what());
+
+
+
+
+
+
+
+    </script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Loop</title>
+</head>
+<body>
+    
+
+    <script>
+    //     const products = [
+    //         {
+    //             id: 1,
+    //             name: 'Television',
+    //         },
+    //         {
+    //             id: 2,
+    //             name: 'Radio',
+    //         },
+    //         {
+    //             id: 3,
+    //             name: 'Mobile phone',
+    //         },
+
+    //     ]
+
+    //     // Map 
+    //     const myProducts = products.map((bayo)=> bayo)
+    //     console.log(myProducts);
+
+    // Map to multiply by 2
+
+    const numArray = [5, 4, 50, 12, 20]
+
+    // Map through
+    // const myMap2 = numArray.map(function(item){
+    //     return item * 2
+    // })
+    // console.log(myMap2);
+
+    // Map through arrow function
+    // const myArrow2 = numArray.map(item=> item * 2)
+    // console.log(myArrow2);
+
+
+    // ForEach Loop
+    // const numEach = [5, 4, 50, 12, 20]
+
+    //  numEach.forEach((item)=>{
+    //     console.log(item);
+    // })
+    // console.log(myForEach);
+
+    // const name = ['Alex', 'Ade', 'Ada', 'Adamu', 'Akin','Akin']
+
+    // // Filter method
+    // const myFilter = name.filter((item)=>{
+    //     return item !== 'Akin'
+    // })
+    // console.log(myFilter);
+
+        // Odd/Even numbers using filters
+        const myNumbers = [1, 2, 3, 4, 5, 6, 7,8,9, 10]
+
+        const myFilter2 = myNumbers.filter((item)=>{
+            return item % 2 === 1
+        })
+        console.log(myFilter2);
+
+        // For In Loop
+        const myArray = ['rice', 'beans', 'eggs']
+        for (const num in myArray) {
+            console.log(num);
+        }
+    
+     </script>
+</body>
+</html>

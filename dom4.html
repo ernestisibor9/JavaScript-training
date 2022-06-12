@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p class="love">I LOVE TOU</p>
+    <p class="love">I WILL DIE FOR YOU</p>
+    <p class="love">I AM GONNA TAKE THIS MOMENT</p>
+
+    <ul id="menu">
+        <li class="first">Home</li>
+        <li>Products</li>
+        <li class="current">Customer Support</li>
+        <li>Careers</li>
+        <li>Investors</li>
+        <li>News</li>
+        <li class="last">About Us</li>
+      </ul>
+    
+
+    <script>
+let menu = document.querySelector('#menu');
+let li = document.createElement('li')
+li.textContent = 'services'
+menu.replaceChild(li, menu.children[1])
+console.log(menu);
+
+const myLove = document.getElementsByClassName('love')
+
+// for(let num of myLove){
+//     num.style.backgroundColor = 'pink'
+//     console.log(num);
+// }
+
+const myFirst = myLove[1]
+myFirst.style.color = '#fff'
+myFirst.style.backgroundColor = 'red'
+
+const mySecond = myLove[2]
+mySecond.style.backgroundColor = 'purple'
+mySecond.style.color = '#fff'
+console.log(mySecond);
+console.log(myLove);
+
+// let listChildren = menu.lastElementChild;
+
+
+// console.log(listChildren);
+
+// console.log(listChildren);
+
+    </script>
+</body>
+</html>

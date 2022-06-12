@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        // Class declaration
+        class Person{
+            constructor(name, age){
+                this.name = name
+                this.age = age
+            }
+
+            getMethod2(){
+                console.log(`This is my people at ${this.name} and their age is ${this.age}`);
+            }
+
+        }
+
+
+        // Inheritance
+
+        class Son extends Person{
+            eat(){
+                console.log('Have you eaten?');
+            }
+        }
+
+        const mySon = new Son('Eminen', 46)
+        console.log(mySon);
+        console.log(mySon.getMethod2())
+        console.log(mySon.eat());
+
+        // Create an instance of the class called Person
+        // const firstPerson = new Person('Michael', 50)
+        // console.log(firstPerson);
+        // const secondPerson = new Person('Brandy', 45)
+        // console.log(secondPerson);
+        // const methodPeople = new Person('Jay Z', 55)
+        // console.log(methodPeople.getMethod2());
+
+    </script>
+</body>
+</html>

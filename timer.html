@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/js/bootstrap.min.js">
+</head>
+<body>
+    <!--Set Interval-->
+        <p id="myDate"></p>
+
+    <!--Clear Interval-->
+    <button type="submit" class=" btn btn-success" onclick="clearInterval(mySet)">Clear Interval</button>
+
+
+    <script>
+        // Declare variables
+        const myDate = document.getElementById('myDate');
+
+        // Set interval
+       let mySet =  setInterval(myTimer, 1000);
+
+        // Create a function
+        function myTimer(){
+            const dateWorld = new Date();
+            myDate.innerHTML = dateWorld.toLocaleTimeString();
+        }
+    </script>
+</body>
+</html>
